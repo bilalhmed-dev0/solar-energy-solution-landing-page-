@@ -1,0 +1,566 @@
+:root{
+    --color-primary:#0000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    position: relative;
+}
+.logo img{
+    width: 190px;
+    height: 50px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+.logo p{
+    position: absolute;
+    right: 30px;
+    top: 25px;
+}
+.hero{
+    width: 100%;
+    height: 500px;
+    background:#0000;
+    
+}
+.maindiv{
+    width: 100%;
+    height: 600px;
+    background:white;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.div1{
+    width: 600px;
+    height: 400px;
+    background: white;
+    z-index: 3;
+    margin-left: 140px;  
+    position: relative;
+}
+.div1 h1{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    font-size: 50px;
+    font-weight: 900;
+}
+.div1 p{
+    position: absolute;
+    left: 50px;
+    top: 220px;
+    font-size: 20px;
+}
+.div1 button{
+    position: absolute;
+    left: 50px;
+    top: 320px;
+    width: 150px;
+    height: 50px;
+    background: rgb(40, 40, 247);
+    border: none;
+}
+.div1 button:hover{
+    background-color: blue;
+}
+.div1 button a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.div2{
+    width: 500px;
+    height: 500px;
+    
+    background-image: url("unnamed.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    margin-left: -100px;
+
+}
+.hero1{
+    width: 100%;
+    height: 550px;
+    background:#0000;
+}
+.div3{
+    width: 400px;
+    height: 400px;
+    background: honeydew;
+    position: relative;
+}
+.minidiv3{
+    width: 400px;
+    height: 400px;
+    background-image: url("unnamed.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 80px;
+    top: 60px;
+}
+.div4{
+    width: 500px;
+    height: 300px;
+    background: #0000;
+    position: absolute;
+    left: 600px;
+    top: 120px;
+}
+.div4 p{
+    letter-spacing: 1.5px;
+    position: absolute;
+    top: 80px;
+    left: 15px;
+    font-size: 18px;
+}
+.div4 button{
+    width: 150px;
+    height: 50px;
+    background: #0000;
+    border: 1px solid blue;
+    position: absolute;
+    left: 10px;
+    top: 230px;
+    border: none;
+}
+.div4 button a{
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.div4 button:hover a{
+    background-color: blue;
+    color: white;
+}
+.hero2{
+    width: 100%;
+    height: 830px;
+    background:#0000;
+    position: relative;
+}
+.hero2 p{
+    position: absolute;
+    left: 30px;
+    top: 100px;
+    font-size: 50px;
+    font-weight: 900;
+}
+.minidiv4{
+    width: 800px;
+    height: 350px;
+    background: #0000;
+    margin-left: 430px;
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+}
+.div5{
+    width: 350px;
+    height: 350px;
+    background-image: url("pexels-pixabay-356049.jpg");
+    background-size: cover;
+    position: relative;
+}
+.div5 p{
+    font-size: 25px;
+    position: absolute;
+    left: 20px;
+    top: 220px;
+    color: white;
+}
+.minidiv5{
+    height: 90px;
+    width: 90px;
+    background: blue;
+    position: absolute;
+    left: 20px;
+    top: 70px;
+}
+.minidiv5 h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+}
+.div6{
+    width: 350px;
+    height: 350px;
+    background-image: url("pexels-vivint-solar-2850347.jpg");
+    background-size: cover;
+    position: relative;
+}
+.div6 p{
+    font-size: 25px;
+    position: absolute;
+    left: 20px;
+    top: 220px;
+    color: white;
+}
+.minidiv6{
+    height: 90px;
+    width: 90px;
+    background: blue;
+    position: absolute;
+    left: 20px;
+    top: 70px; 
+}
+.minidiv6 h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+}
+.minidiv9{
+    width: 800px;
+    height: 350px;
+    background: #0000;
+    margin-left: 430px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.div7{
+    width: 350px;
+    height: 350px;
+    background-image: url("f3c93bea-2426-4639-a65b-3fe7ce9bde16.jpg");
+    background-size: cover;
+    position: relative;
+}
+.div7 p{
+    font-size: 25px;
+    position: absolute;
+    left: 20px;
+    top: 220px;
+    color: black;
+}
+.minidiv7{
+    height: 90px;
+    width: 90px;
+    background: blue;
+    position: absolute;
+    left: 20px;
+    top: 70px;
+}
+.minidiv7 h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+}
+.div8{
+    width: 350px;
+    height: 350px;
+    background: deeppink;
+    background-image: url("pexels-alena-darmel-8133851.jpg");
+    background-size: cover;
+    position: relative;
+    
+}
+.div8 p{
+    font-size: 30px;
+    position: absolute;
+    left: 20px;
+    top: 220px;
+    color: white;
+}
+.minidiv8{
+    height: 90px;
+    width: 90px;
+    background: blue;
+    position: absolute;
+    left: 20px;
+    top: 70px;
+}
+.minidiv8 h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+}
+.hero3{
+    width: 100%;
+    height:600px;
+    background-image: url("pexels-pixabay-356049.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.hero3 h1{
+    position: absolute;
+    left: 80px;
+    top: 30px;
+    font-size: 40px;
+    color:white;
+}
+.hero3 p{
+    position: absolute;
+    left: 580px;
+    top: 30px;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: white;
+
+}
+.div9{
+   width: 370px;
+   height: 300px;
+   background: blanchedalmond;
+   position: relative;
+}
+.div9 h1{
+    position: absolute;
+    left: 50px;
+    font-size: 25px;
+    color: white;
+}
+.div9 p{
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    top: 90px;
+}
+.div10{
+    width: 400px;
+    height: 300px;
+    background: rgb(243, 148, 5);
+    position: relative;
+}
+.div10 h1{
+    font-size: 25px;
+    position: absolute;
+    left: 50px;
+
+}
+.div10 p{
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    top: 90px
+}
+.div11{
+    width: 400px;
+    height: 300px;
+    background: rgb(4, 169, 219);
+    position: relative;
+}
+.div11 h1{
+    font-size: 25px;
+    position: absolute;
+    left: 50px;
+}
+.div11 p{
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    top: 90px
+}
+.hero4{
+    width: 100%;
+    height: 400px;
+    background: #0000;
+    position: relative;
+}
+.hero4 h1{
+    color: blue;
+    font-size: 100px;
+    position: absolute;
+    left: 560px;
+    top: 20px;
+}
+.hero4 p{
+    position: absolute;
+    left: 250px;
+    top: 150px;
+    font-size: 25px;
+    
+}
+.hero4 h2{
+    position: absolute;
+    left: 470px;
+    top: 300px;
+    text-transform: uppercase;
+}
+.hero5{
+    width: 100%;
+    height: 830px;
+    background: #0000;
+}
+.minidiv10{
+    display: flex;
+    position: relative;
+    left: 0px;
+    top: 20px;
+}
+.div12{
+    width: 620px;
+    height: 400px;
+    background-image: url("unnamed.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.div13{
+    width: 620px;
+    height: 400px;
+    background: #0000;
+    position: relative;
+}
+.div13 h1{
+  position: absolute;
+  font-size: 30px;
+  left: 150px;
+  top: 70px;
+}
+.div13 p{
+    position: absolute;
+    left: 90px;
+    top: 200px;
+    font-size: 20px;
+}
+.div13 button{
+    position: absolute;
+    left: 90px;
+    top: 300px;
+    width: 150px;
+    height: 50px;
+    border: none;
+
+}
+
+.div13 button:hover{
+    background-color: blue;
+}
+.div13 button a{
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.div13 button:hover a{
+    background-color: blue;
+    color: white;
+}
+.minidiv11{
+    display: flex;
+    position: relative;
+}
+.div14{
+    width: 620px;
+    height: 400px;
+    background: #0000;
+}
+.div14 h1{
+    position: absolute;
+    font-size: 30px;
+    left: 90px;
+    top: 70px;
+  }
+  .div14 p{
+      position: absolute;
+      left: 90px;
+      top: 200px;
+      font-size: 20px;
+  }
+  .div14 button{
+      position: absolute;
+      left: 90px;
+      top: 300px;
+      width: 150px;
+      height: 50px;
+      border: none;
+  
+  }
+  
+  .div14  button:hover{
+      background-color: blue;
+  }
+  .div14 button a{
+      text-decoration: none;
+      color: blue;
+      text-transform: uppercase;
+      font-weight: bold;
+  }
+  .div14 button:hover a{
+      background-color: blue;
+      color: white;
+  }
+.div15{
+    width: 620px;
+    height: 400px;
+    background-image: url("pexels-pixabay-356049.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.hero6{
+    width: 100%;
+    height: 500px;
+    background-image: url("pexels-pixabay-356049.jpg");
+    background-size: cover;
+    position: relative;
+}
+.hero6 h1{
+  position: absolute;
+  font-size: 50px;
+  font-weight: bold;
+  left: 340px;
+  top: 100px;
+  color: white;
+}
+.hero6 p{
+    position: absolute;
+    left: 300px;
+    top: 200px;
+    font-size: 30px;
+    color: white;
+}
+  .hero6 button{
+      position: absolute;
+      left: 500px;
+      top: 300px;
+      width: 200px;
+      height: 70px;
+      border: none;
+  
+  }
+  
+  .hero6 button:hover{
+      background-color: blue;
+  }
+  .hero6  button a{
+      text-decoration: none;
+      color: blue;
+      text-transform: uppercase;
+      font-weight: bold;
+  }
+  .hero6 button:hover a{
+      background-color: blue;
+      color: white;
+  }
+  footer{
+      position: relative;
+      top: 450px;
+      background: #000;;
+      height: 100px;
+      width: 100%;
+  }
+  .socials{
+      color: aqua;
+      position: absolute;
+      left: 500px;
+      top: 30px;
+  }
+  .socials i{
+      padding: 10px;
+  }
+
+  
